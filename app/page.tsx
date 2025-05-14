@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Header from "@/public/header.png";
 import Avatar from "@/public/avatar.png";
-import Dragon from "@/public/dragon.png";
+import Shop from "./components/Shop";
+
 
 export default function Home() {
   return (
@@ -35,131 +36,19 @@ export default function Home() {
           </div>
           </div>
         </div>
-        <section className="flex flex-wrap gap-3 mt-5">
-          <div className="flex habbo-component rounded-lg bg-[#6794A7] w-60 h-full justify-center p-3">
-            <div className="flex-col p-3 bg-[#EFEFEF] rounded-lg border-1 border-black w-full h-full">
-              <div className="flex gap-3 mb-2">
-                <div>
-                  <Image src={Avatar.src} width={28} height={28} alt="Avatar"></Image>
-                </div>
-                <div>
-                  <p>Loja de <b>Yami</b></p>
-                </div>
-              </div>
-              <div className="flex flex-wrap border-1 border-black p-2 gap-3 h-full rounded">
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex habbo-component rounded-lg bg-[#6794A7] w-60 h-full justify-center p-3">
-            <div className="flex-col p-3 bg-[#EFEFEF] rounded-lg border-1 border-black w-full h-full">
-              <div className="flex gap-3 mb-2">
-                <div>
-                  <Image src={Avatar.src} width={28} height={28} alt="Avatar"></Image>
-                </div>
-                <div>
-                  <p>Loja de <b>Yami</b></p>
-                </div>
-              </div>
-              <div className="flex flex-wrap border-1 border-black p-2 gap-3 h-full rounded">
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex habbo-component rounded-lg bg-[#6794A7] w-60 h-full justify-center p-3">
-            <div className="flex-col p-3 bg-[#EFEFEF] rounded-lg border-1 border-black w-full h-full">
-              <div className="flex gap-3 mb-2">
-                <div>
-                  <Image src={Avatar.src} width={28} height={28} alt="Avatar"></Image>
-                </div>
-                <div>
-                  <p>Loja de <b>Yami</b></p>
-                </div>
-              </div>
-              <div className="flex flex-wrap border-1 border-black p-2 gap-3 h-full rounded">
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-                <div id="mobi" className="flex flex-col items-center justify-center w-12 bg-white border-1 border-black rounded">
-                  <Image src={Dragon.src} width={50} height={50} alt="Dragon"></Image>
-                </div>
-              </div>
-            </div>
-          </div>
-          
+        <section className="flex flex-wrap gap-5 mt-5">
+          <Shop/>
+          <Shop/>
+          <Shop/>
+          <Shop/>
+          <Shop/>
+          <Shop/>
+          <Shop/>
+          <Shop/>
+          <Shop/>
+          <Shop/>
+          <Shop/>
+          <Shop/>
         </section>
       </div>
     </div>

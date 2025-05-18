@@ -23,7 +23,7 @@ const Shop = ({username}: ShopProps) => {
   ]
   const furnisShopLimited = furnisShop.slice(0, limite)
   return (
-    <div className="flex habbo-component rounded-lg bg-[#6794A7] w-60 h-full justify-center p-3 hover:cursor-pointer">
+    <div className="flex habbo-component rounded-lg bg-[#6794A7] w-full md:w-60 h-full justify-center p-3 hover:cursor-pointer">
             <div className="flex-col p-3 bg-[#EFEFEF] rounded-lg border-1 border-black w-full h-full">
               <div className="flex gap-3 mb-2">
                 <div>
